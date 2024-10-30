@@ -26,4 +26,4 @@ To run this project locally, follow these steps:
 
 ## API
 
-This app uses the Open Meteo API to fetch real-time weather data. It provides weather information such as temperature, humidity, wind speed, and more. For more information on the API, visit (Open Meteo API)[https://open-meteo.com/].
+This app uses the Open Meteo API to fetch real-time weather data. It provides weather information such as temperature, humidity, wind speed, and more. For more information on the API, visit [Open Meteo API](https://open-meteo.com/).
