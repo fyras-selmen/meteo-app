@@ -92,15 +92,17 @@ class _HomeScreenState extends State<HomeScreen> {
       ), */
       body: BlocBuilder<MeteoBloc, MeteoState>(
         builder: (context, state) {
-          return SingleChildScrollView(
-            scrollDirection: Axis.vertical,
-            child: Container(
-              decoration: const BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage("assets/images/background.jpg"),
-                  fit: BoxFit.cover,
-                ),
+          return Container(
+            width: double.infinity,
+            height: double.infinity,
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage("assets/images/background.jpg"),
+                fit: BoxFit.cover,
               ),
+            ),
+            child: SingleChildScrollView(
+              scrollDirection: Axis.vertical,
               child: state.data == null
                   ? SizedBox(
                       height: ScreenUtil().screenHeight,
