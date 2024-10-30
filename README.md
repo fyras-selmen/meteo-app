@@ -17,3 +17,13 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/meteo_app.git
    cd meteo_app
+1. **Install dependencies**:
+   ```bash
+   flutter pub get
+1. **Run the app:**:
+   ```bash
+   flutter run
+
+## API
+
+This app uses the Open Meteo API to fetch real-time weather data. It provides weather information such as temperature, humidity, wind speed, and more. For more information on the API, visit (Open Meteo API)[https://open-meteo.com/].
