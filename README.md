@@ -1,16 +1,31 @@
-# meteo_app
+Meteo App 🌤️
+Meteo App is a simple and intuitive weather application built using Flutter. It provides real-time weather information for your current location and allows users to search for other cities. You can also save your favorite cities for quick access.
 
-A new Flutter project.
+Features
+Current Location Weather: Automatically fetches and displays weather information for your current location.
+City Search: Search for any city to view its current weather details.
+Favorites: Save frequently visited cities and quickly view their weather data.
+Persistent Storage: Your favorite cities are stored locally and persist across app restarts.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Installation
+To run this project locally, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+bash
+Copy code
+git clone https://github.com/yourusername/meteo_app.git
+cd meteo_app
+Install dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+Copy code
+flutter pub get
+Run the app:
+
+bash
+Copy code
+flutter run
+API
+This app uses the Open Meteo API to fetch real-time weather data. For more information on the API, visit Open Meteo API.
